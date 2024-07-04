@@ -1,0 +1,91 @@
+/* white text is used mostly so using universal selector color is given as white for all text  */
+*{
+    color: white;
+}
+
+body{
+    /* background-color: rgb(37, 190, 228); */
+    background-image: linear-gradient( to right bottom,rgb(31, 31, 232),rgba(104, 208, 237, 0.825),rgb(24, 243, 152));
+}
+
+#getstartbutton{
+    background-color: rgb(37, 190, 228);
+    border:1px solid white;
+    margin-left: 30px;
+    width: 100px;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* bring all the <a> tags to right corner*/
+#links{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#mainContainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: end;
+}
+
+/* IMPORTANT posistion absolute is provided to over lap the form in textcontainer and then formcontainer is moved to right */
+#textContainer{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#seePricingButton{
+    background-color:rgb(143, 227, 19) ;
+    border-radius: 30px;
+    border: navajowhite;
+    width: 150px;
+    height: 30px;
+}
+
+/* form container  */
+#form{
+    background-color: white;
+    color: black;
+    width: 400px;
+    text-align: center;
+    box-shadow: 2px 2px 12px 2px ;
+    margin-right: 50px;
+}
+#form h1,option{
+    color: black;
+    padding-top: 40px;
+}
+#form select{
+    color: black;
+    width: 170px;
+    height: 21px;
+}
+#form input,select{
+    margin-top: 30px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#registerButton{
+    background-color: blue;
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 2px 2px 12px 2px black;
+}
